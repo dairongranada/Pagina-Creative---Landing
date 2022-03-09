@@ -1,0 +1,341 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,600&family=PT+Serif:ital,wght@1,700&display=swap');
+
+
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+nav {
+    height:50px;
+    width:50px;
+    display: flex;
+    background-color: rgb(241, 113, 9);
+    
+}
+
+
+.MenuBurger{ /*Este es el menu hamburguesa */
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px; /* Margin que sirve pa centrarlo en el contenedor */
+
+}
+
+
+
+/* ============================  VISTA PRINCIPAL  =====================================*/
+
+.ImgDeFondoUno{
+    font-family: 'IBM Plex Serif', serif;
+    background-image: url("../img/Superior.png");
+    background-size: cover;
+    background-position:center;
+    height:100vh;
+    width:100%;
+    
+}
+
+
+.TextOne{
+    text-align: center;
+    font-size :45px;
+    padding: 125px 1px 22px;
+    text-shadow: 1px 1px 12px #000;
+    color: white;
+}
+
+.ContenedorBoton { /*CONTENEDOR DEL BOTON*/
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+
+}
+
+
+.btn-1{
+    padding: 15px 40px;
+    background: linear-gradient(rgba(255, 174, 0, 0.746),rgba(255, 81, 0, 0.753));
+    color: #fff;
+    border-radius:50px;
+    cursor: pointer;
+    font-weight:600;
+}
+
+
+
+
+
+
+
+/* ============================  S E C T I O N  1  =====================================*/
+
+.Contenedor1{
+    margin: 243px 11px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.SetionTitulo1 h1{
+    font-size :40px;
+    padding: 1px 1px 15px;
+    background: linear-gradient(rgba(255, 174, 0, 0.746),rgba(255, 81, 0, 0.753));
+    -webkit-background-clip: text;
+    font-family: 'IBM Plex Serif', serif;
+    color: transparent;  
+}
+
+
+
+.SetionTitulo1 p{
+    font-size :20px;
+    padding: 0 0 13px;
+    font-family: sans-serif;
+}
+
+
+.ContenedorBoton2do { /*CONTENEDOR DEL BOTON*/
+    display: flex;
+}
+.boton2do{
+    padding: 15px 40px;
+    background: linear-gradient(rgba(255, 174, 0, 0.746),rgba(255, 81, 0, 0.753));
+    color: #fff;
+    border-radius:50px;
+    cursor: pointer;
+    font-weight:600;
+}
+
+/* ======================================================================================*/
+/* ============================  S E C T I O N  2  =====================================*/
+
+
+.Contenedor3{
+    
+    margin: 243px 11px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.SetionTitulo3 h1{
+    font-family: 'IBM Plex Serif', serif;
+    font-size :40px;
+    padding: 1px 0 5px;
+    background: linear-gradient(rgba(255, 174, 0, 0.746),rgba(255, 81, 0, 0.753));
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+
+
+
+.SetionTitulo3 p{
+    font-size :20px;
+    padding: 1px 1px 25px;
+    font-family: sans-serif;
+}
+
+
+.ContenedorBoton3ro { /*CONTENEDOR DEL BOTON*/
+    display: flex;
+}
+.boton3ro{
+    padding: 15px 40px;
+    background: linear-gradient(rgba(255, 174, 0, 0.746),rgba(255, 81, 0, 0.753));
+    color: #fff;
+    border-radius:50px;
+    cursor: pointer;
+    font-weight:600;
+}
+
+/* ======================================================================================*/
+/* ============================  S E C T I O N  4  =====================================*/
+
+.Contenedor4{
+    background-image: url("../img/inferior.png");
+    background-size: cover;
+    background-position:center;
+    height:100vh;
+    width:100%;
+}
+
+
+.SetionTitulo4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 0 0 184px;
+}
+
+
+.SetionTitulo4 h1{
+    font-weight: bold;
+    font-family: 'IBM Plex Serif', serif;
+    font-size :40px;
+    padding: 1px 1px 25px;
+    background: linear-gradient(rgba(255, 174, 0, 0.746),rgba(255, 81, 0, 0.753));
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+
+
+
+.SetionTitulo4 p{
+    font-size :15px;
+    padding: 0px 0px 17px;
+    font-family: sans-serif;
+}
+
+
+.ContenedorBoton4to { /*CONTENEDOR DEL BOTON*/
+    display: flex;
+}
+.boton4to{
+    padding: 15px 40px;
+    background: linear-gradient(rgba(255, 174, 0, 0.746),rgba(255, 81, 0, 0.753));
+    color: #fff;
+    border-radius:50px;
+    cursor: pointer;
+    font-weight:600;
+}
+
+
+/* ======================================================================================*/
+/* =================================   F O T T E R  =====================================*/
+
+#p1{
+    margin-bottom: 50px;
+}
+
+.footer p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 17px;;
+    font-family: sans-serif;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgb(252,155,69);
+    height:33vh;
+    width:100%;
+
+}
+
+
+
+.Creditoss{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgb(252,155,69);
+    height:7vh;
+    color: #fff;
+    box-shadow: 0 11px 20px #000;
+    font-family: sans-serif;
+
+}
+
+/* ======================================================================================*/
+/* ==============================   R E S P O N S I V E   ================================*/
+
+
+@media screen and (max-width: 1200px) {
+    .Contenedor1 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 156px;
+    }
+    .Contenedor3 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 156px;
+    }
+
+    .SetionTitulo1 h1{
+        font-size: 40px;
+    }
+    .SetionTitulo1 p{
+        font-size: 15px;
+        padding: 0 0 10px;
+    }
+    .boton2do {
+        margin: 0 0 24px;
+    }
+
+    .SetionTitulo3 h1{
+        font-size: 40px;
+    }
+    .SetionTitulo3 p{
+        font-size: 15px;
+        padding: 0 0 10px;
+    }
+}
+
+
+@media screen and (min-width: 600px) {
+    .Contenedor1 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 156px;
+    }
+    .Contenedor3 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 156px;
+    }
+
+    .SetionTitulo1 h1{
+        font-size: 40px;
+    }
+    .SetionTitulo1 p{
+        font-size: 15px;
+        padding: 0 0 10px;
+    }
+    .boton2do {
+        margin: 0 0 24px;
+    }
+
+    .SetionTitulo3 h1{
+        font-size: 40px;
+    }
+    .SetionTitulo3 p{
+        font-size: 15px;
+        padding: 0 0 10px;
+    }
+
+    .SetionTitulo4 {
+        padding-left: 93px;
+    }
+    
+    .footer p{
+        font-size: 15px;
+    }
+
+        
+    .Creditoss p{
+        font-size: 15px;
+    }
+
+    .footer {
+        height: 51vh;
+
+    }
+
+
+    
+
+    
+
+}
